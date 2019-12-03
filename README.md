@@ -1,36 +1,19 @@
 # CaseShiller
 
-Case-Shiller index is one of the most common used index in real estate market for house price analysis. This project will be focusing to produce a house price analysis for United States real estate market using Case Shiller index. There will be numbers and visualizations showing the changes of the index.
+### Objective
+Case-Shiller index is one of the most common used index in real-estate market for house price analysis. This project will be focusing on analyzing the trends and changes of the Case-Shiller index and make prediction for the furture index.
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Procedures
 
-### Prerequisites
+There will be four steps in this project
 
-What things you need to install the software and how to install them
+1. Get the both nation-wide and fifteen Metropolitan's Case-Shiller index data from "https://fred.stlouisfed.org/" with Python
+2. Perfrom data cleaning and calculation(Month-Over-Month ratio,Year-Over-Year ratio) with Python and export to Excel files
+3. Make a forecasting for the furture case-shiller index with Python
+4. Visualize the trends and ratios with Tableau
 
-```
-Give examples
-```
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
